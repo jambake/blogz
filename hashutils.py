@@ -1,6 +1,6 @@
 import random, string, hashlib, hmac
 
-""" functions for hasing and checking password values """
+""" functions for hashing and checking password values """
 def make_salt():
     return ''.join(random.choice(string.letters) for x in xrange(5))
 
